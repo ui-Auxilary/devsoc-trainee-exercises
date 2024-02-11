@@ -1,0 +1,67 @@
+.optopusContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    width: 85%;
+    flex: 1.8;
+    margin-bottom: 30px;
+}
+
+.summonTitle {
+    font-size: 3rem;
+    font-family: 'Inria sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.summonTag {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.summonCost {
+   background-color: #6921B0;
+   width: 180px;
+   height: 70px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   cursor: pointer;
+}
+
+.summonCost > img {
+    width: 28%;
+} 
+
+.summonCost > span {
+    font-size: 32px;
+    font-weight: 700;
+} 
+
+.optopusWrapper {
+    display: flex;
+}
+
+.optopusRight {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.optopusBox {
+    background: #1F122F;
+    width: 250px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.optopusBox > img {
+    width: 100%;
+}

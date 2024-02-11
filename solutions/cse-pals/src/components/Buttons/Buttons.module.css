@@ -1,0 +1,35 @@
+.btn {
+    border-radius: 30px;
+    width: fit-content;
+    padding: 10px 30px;
+    height: 45px;
+    border: none;
+    margin: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(105%);
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+
+.joinCsepal {
+    background-color: #8A2F83;
+}
+
+.login {
+    background-color: #8A2F83;
+}
+
+.signup { 
+    background-color: #6D62E5;
+}

@@ -1,0 +1,25 @@
+.categoryList {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    background-color: #674E65;
+    border-radius: 30px;
+    width: fit-content;
+    height: 45px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.category:hover {
+    background-color: #81697f;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.itemBox {
+    border-radius: 5px;
+    padding: 20px;
+    border: 5px solid #DABCFF;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+}
+
+.itemValue {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    font-weight: 700;
+    z-index: 10;
+    color: white;
+}
+
+.innerBox {
+    border-radius: 10px;
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    background-color: #320B51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    position: absolute;
+    width: 65%;
+    align-self: center;
+    justify-self: center;
+}
+
+.levelInner {
+    clip-path: polygon(23% 0, 80% 0, 100% 50%, 81% 100%, 22% 100%, 0% 50%);
+    background-color: #320B51;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    bottom: -30px;
+    top: 5px;
+    left: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelOuter {
+    clip-path: polygon(23% 0, 80% 0, 100% 50%, 81% 100%, 22% 100%, 0% 50%);
+    background-color: #DABCFF;
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    bottom: -30px;
+    margin-top: 25px;
+    z-index: 100;
+}
+
+.level {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}

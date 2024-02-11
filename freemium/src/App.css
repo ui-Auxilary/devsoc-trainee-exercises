@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(87, 53, 112, 1), rgba(69, 54, 80, 1));
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.appContainer {
+    display: flex;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .appContainer {
+        background-color: #FFF8F8;
+    }
+}

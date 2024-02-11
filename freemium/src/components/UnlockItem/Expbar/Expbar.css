@@ -1,0 +1,16 @@
+.expbar {
+    width: 85%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #7C518B;
+    position: relative;
+    align-content: center;
+}
+
+.progress {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #F4D3FF;
+    position: absolute;
+}

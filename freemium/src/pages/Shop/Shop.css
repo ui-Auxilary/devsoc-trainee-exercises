@@ -1,0 +1,11 @@
+.shopContainer {
+    height: 100%;
+    width: 100%;
+    padding: 23px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopContainer > .summonWrapper {
+    justify-content: flex-end;
+}

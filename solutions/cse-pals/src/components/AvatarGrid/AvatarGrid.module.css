@@ -1,0 +1,23 @@
+.avatarGrid {
+    display: grid;
+    grid-template:
+        [row1-start] "avatar1 avatar2 avatar3" [row1-end]
+        [row2-start] "avatar1 avatar4 avatar5" [row2-end]
+        / auto auto auto;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    height: 500px;
+    max-width: 1280px;
+}
+
+.avatarFlex {
+    display: flex;
+    gap: 2rem;
+}
+
+.avatar1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: blue;
+}

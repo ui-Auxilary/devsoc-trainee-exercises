@@ -1,0 +1,116 @@
+.avatar {
+    min-height: 300px;
+    max-width: 350px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.overlay {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(40, 13, 13, 0.53);
+    padding: 25px;
+    border-radius: 15px 15px 30px 30px;
+    justify-content: space-around;
+}
+
+.avatar:hover img {
+    transform: scale(1.1);
+}
+
+.avatar:hover > .content > .overlay {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.avatar > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    transition: transform 5s;
+}
+
+
+
+.avatar1 {
+    border-radius: 30px;
+    background-color: blue;
+    grid-area: avatar1;
+}
+
+.avatar2 {
+    border-radius: 30px;
+    background-color: red;
+    grid-area: avatar2;
+}
+
+.avatar3 {
+    border-radius: 30px;
+    background-color: red;
+    grid-area: avatar3;
+}
+
+.avatar4 {
+    border-radius: 30px;
+    background-color: red;
+    grid-area: avatar4;
+}
+
+.avatar5 {
+    border-radius: 30px;
+    background-color: red;
+    grid-area: avatar5;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.rating {
+    background-color: #331825;
+    border-radius: 30px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: 80px;
+    height: 35px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 40px;
+}
+
+.star {
+    width: 60px;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.language {
+    color: #C9CEFF;
+    font-size: 2rem;
+}
+
+.speciality {
+    font-weight: 200;
+    align-self: flex-end;
+    font-size: 2rem;
+}

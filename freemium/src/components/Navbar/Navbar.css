@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coins {
+    font-weight: 700;
+    font-size: 44px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logout {
+    border-radius: 30px;
+    background-color: #F8247D;
+    color: white;
+    padding: 5px;
+    border: none;
+    width: 120px;
+    height: 44px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Inria sans', sans-serif;
+    cursor: pointer;
+}

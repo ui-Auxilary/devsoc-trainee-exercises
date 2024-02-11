@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "username": "free",
+            "password": "free"
+        },
+        {
+            "username": "premium",
+            "password": "premium"
+        }
+    ]
+}

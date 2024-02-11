@@ -1,0 +1,31 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "waveCoin",
+            "value": "100"
+        },
+        {
+            "id": 2,
+            "name": "egg"
+        },
+        {
+            "id": 3,
+            "name": "themeColour"
+        },
+        {
+            "id": 4,
+            "name": "waveCoin",
+            "value": "300"
+        },
+        {
+            "id": 5,
+            "name": "egg"
+        },
+        {
+            "id": 6,
+            "name": "waveCoin",
+            "value": "600"
+        }
+    ]
+}

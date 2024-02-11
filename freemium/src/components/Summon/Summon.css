@@ -1,0 +1,58 @@
+.summonContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.summonWrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.summon {
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 12rem;
+    margin-bottom: 3rem;
+}
+
+.egg {
+    width: 60%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.eggCounter {
+    width: 60px;
+    height: 60px;
+    background-color: #DE0C58;
+    color: white;
+    border-radius: 50px;
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.summonBg {
+    width: 160px;
+    height: 160px;
+    background-color: #6F6EAF;
+    clip-path: circle(93.8% at 94% 94%);
+    display: flex;
+    align-items: flex-end;
+    justify-items: flex-end;
+    border-radius: 10px 0px 0px 0px;
+    position: relative;
+    cursor: pointer;
+}
